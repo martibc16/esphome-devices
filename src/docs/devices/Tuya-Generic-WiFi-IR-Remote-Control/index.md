@@ -45,10 +45,12 @@ remote_transmitter:
 
 light:
   - platform: status_led
+    id: led_1
     pin: P8
 
 binary_sensor:
   - platform: gpio
+    id: button_1
     pin:
       number: P6
       inverted: true
